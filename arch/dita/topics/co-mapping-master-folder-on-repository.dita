@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_skn_lk2_hkb">
+    <title>Mapping CPM Master Folders on Repositories</title>
+    <conbody>
+        <p>We mean here by a <term>repository</term> a Git repository, a GitHub repository, or a
+            repository that is available under the control of some other version control system.</p>
+        <p>No way a CPM developer should map a whole master folder instance on a single repository.
+            Outcomes should be stored in repositories as it shown below.</p>
+        <table frame="all" id="table_zs2_kw2_hkb">
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="2*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <colspec colname="c4" colnum="4" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Component</entry>
+                        <entry>Core</entry>
+                        <entry>CPMWin</entry>
+                        <entry>Dedicated</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>CPM core</entry>
+                        <entry>X</entry>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Any library</entry>
+                        <entry>X</entry>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Any reader</entry>
+                        <entry>X</entry>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>App. <apiname>TestCPM</apiname></entry>
+                        <entry>X</entry>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>App. <apiname>Sample</apiname></entry>
+                        <entry>X</entry>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Any other application</entry>
+                        <entry/>
+                        <entry/>
+                        <entry>X</entry>
+                    </row>
+                    <row>
+                        <entry>CPMWin</entry>
+                        <entry/>
+                        <entry>X</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Any blade</entry>
+                        <entry>N/A</entry>
+                        <entry>N/A</entry>
+                        <entry>N/A</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>A <term>dedicated</term> repository is a repository that contains a single outcome.</p>
+    </conbody>
+</concept>

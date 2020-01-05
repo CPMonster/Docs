@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_oxz_qg2_hkb">
+    <title>Understanding Applications</title>
+    <conbody>
+        <p>An <term>application</term> is a set of programs, stylesheets, data files, etc. that
+            allows a user to enjoy some useful features.</p>
+    </conbody>
+</concept>

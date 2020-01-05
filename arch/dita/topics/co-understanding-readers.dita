@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_g43_r5d_hkb">
+    <title>Understanding Readers</title>
+    <conbody>
+        <p>A <term>reader</term> is a component that retrieves source data from a given source. </p>
+        <p>Technically, a reader is a program one can launch in the command line mode. A reader
+            performs the following tasks:</p>
+        <ul id="ul_c11_dzd_hkb">
+            <li>Retrieving source data</li>
+        </ul>
+        <p>Each reader provides a unified program interface for the CPM script. </p>
+        <p>A reader receives the following data.</p>
+        <simpletable frame="all" relcolwidth="1.29* 1.58* 1.0*" id="simpletable_pwv_hwd_hkb">
+            <sthead>
+                <stentry>Item</stentry>
+                <stentry>Possible values</stentry>
+                <stentry>Occurrence</stentry>
+            </sthead>
+            <strow>
+                <stentry>A data source identifier</stentry>
+                <stentry>A source folder path, an ODBC data source name, etc.</stentry>
+                <stentry>Yes</stentry>
+            </strow>
+            <strow>
+                <stentry>Credentials</stentry>
+                <stentry>A login and password pair, a connection string, etc.</stentry>
+                <stentry>When the data source requires</stentry>
+            </strow>
+            <strow>
+                <stentry>A previous state description</stentry>
+                <stentry>The structure of a source folder</stentry>
+                <stentry>When the reader supports</stentry>
+            </strow>
+        </simpletable>
+        <p>A reader retrieves the following data. </p>
+        <simpletable frame="all" relcolwidth="1.32* 1.63* 1.0*" id="simpletable_kff_2xd_hkb">
+            <sthead>
+                <stentry>Item</stentry>
+                <stentry>Format</stentry>
+                <stentry>Occurrence</stentry>
+            </sthead>
+            <strow>
+                <stentry>Source tree</stentry>
+                <stentry>XML</stentry>
+                <stentry>Yes</stentry>
+            </strow>
+            <strow>
+                <stentry>Source data</stentry>
+                <stentry>A temporary folder having the source content inside</stentry>
+                <stentry>When the reader provides</stentry>
+            </strow>
+            <strow>
+                <stentry>A map of differences</stentry>
+                <stentry>XML</stentry>
+                <stentry>When the reader provides</stentry>
+            </strow>
+        </simpletable>
+        <p>A reader must be registered in a CPM configuration file. Otherwise a blade is unavailable
+            for CPM.</p>
+    </conbody>
+</concept>

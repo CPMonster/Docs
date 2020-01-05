@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_iff_5d2_hkb">
+    <title>Understanding Libraries</title>
+    <conbody>
+        <p>A <term>library</term> is a set of programs, stylesheets, and data files that allows an
+            application to access CPM resources or render some specific functionality. </p>
+    </conbody>
+</concept>

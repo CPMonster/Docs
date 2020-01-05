@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_rpv_bj2_hkb">
+    <title>CPM Master Folders</title>
+    <conbody>
+        <p>A <term>CPM master folder</term> (<term>master folder</term>) is a folder where all the
+            available CPM components are stored. </p>
+        <p>A CPM developer deploys an instance of a master folder on his/her computer. </p>
+        <p>Each CPM instance that is deployed somewhere on the customer's system is a subset of
+            master folder.</p>
+        <p>An application that prepares CPM installation packages (<apiname>MyDistr</apiname>)
+            expects to receive a master folder as a source.</p>
+    </conbody>
+</concept>

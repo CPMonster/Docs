@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_sxd_z22_hkb">
+    <title>Understanding Blades</title>
+    <conbody>
+        <p>A <term>blade</term> is a third-party software CPM uses for processing data. For example,
+            Saxon, GraphViz, FOP are treated as blades by CPM.</p>
+        <p>CPM can be delivered and deployed together with blades. Alternatively, a user can obtain
+            a blade himself/herself and deploy it outside of a CPM folder. </p>
+        <p>A blade must be registered in a CPM configuration file. Otherwise a blade is unavailable
+            for CPM.</p>
+    </conbody>
+</concept>

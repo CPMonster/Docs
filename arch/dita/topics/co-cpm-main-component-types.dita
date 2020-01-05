@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_lvb_m32_hkb">
+    <title>Main CMP Component Types</title>
+    <conbody>
+        <p>CPM includes :</p>
+        <ul id="ul_kfl_432_hkb">
+            <li>The CPM core</li>
+            <li>Readers</li>
+            <li>Libraries</li>
+            <li>Blades</li>
+            <li>Applications</li>
+            <li>GUI tools</li>
+        </ul>
+    </conbody>
+</concept>
