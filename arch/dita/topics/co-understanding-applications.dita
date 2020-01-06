@@ -4,6 +4,7 @@
     <title>Understanding Applications</title>
     <conbody>
         <p>An <term>application</term> is a set of programs, stylesheets, data files, etc. that
-            allows a user to enjoy some useful features.</p>
+            allows a user to enjoy some useful features. That CPM itself is a framework for running
+            applications.</p>
     </conbody>
 </concept>
