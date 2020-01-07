@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ww5_zft_hkb">
+    <title>Libraries Overview</title>
+    <conbody>
+        <table frame="all" id="table_d5h_cht_hkb">
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.29*"/>
+                <colspec colname="newCol3" colnum="3" colwidth="3.88*"/>
+                <thead>
+                    <row>
+                        <entry>Library</entry>
+                        <entry>Module</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry morerows="1"><apiname>tagsets</apiname></entry>
+                        <entry><apiname>hashtags.xsl</apiname></entry>
+                        <entry>Comparing strings ignoring irrelevant characters</entry>
+                    </row>
+                    <row>
+                        <entry><apiname>strsets.xsl</apiname></entry>
+                        <entry>Processing lists of strings as sets of items</entry>
+                    </row>
+                    <row>
+                        <entry morerows="1"><apiname>trees</apiname></entry>
+                        <entry><apiname>cpmguts.xsl</apiname></entry>
+                        <entry>Accessing CPM configuration parameters</entry>
+                    </row>
+                    <row>
+                        <entry><apiname>jobguts.xsl</apiname></entry>
+                        <entry>Accessing to job and target properties</entry>
+                    </row>
+                    <row>
+                        <entry morerows="1"><apiname>utils</apiname></entry>
+                        <entry><apiname>morexsl.xsl</apiname></entry>
+                        <entry>Performing frequently used tests and output content generation
+                            activities</entry>
+                    </row>
+                    <row>
+                        <entry><apiname>pathuri.xsl</apiname></entry>
+                        <entry>Parsing and assembling paths and URIs</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

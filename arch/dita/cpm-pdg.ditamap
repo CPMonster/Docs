@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>CPM Platform Developer Guide</title>
+    <topichead navtitle="The Platform Architecture"></topichead>
+    <topichead navtitle="Components of CPM">
+        <topicref href="topics/co-cpm-main-component-types.dita"/>
+        <topichead navtitle="Applications">
+            <topicref href="topics/co-understanding-applications.dita"/>
+        </topichead>
+        <topichead navtitle="Blades">
+            <topicref href="topics/co-understanding-blades.dita"/>
+        </topichead>
+        <topichead navtitle="Libraries">
+            <topicref href="topics/co-understanding-libraries.dita"/>
+            <topicref href="topics/co-libraries-overview.dita"/>
+        </topichead>
+        <topichead navtitle="Readers">
+            <topicref href="topics/co-understanding-readers.dita"/>
+        </topichead>
+    </topichead>
+    <topichead navtitle="Developing CPM">
+        <topicref href="topics/co-cpm-master-folders.dita"/>
+    </topichead>
+</map>
