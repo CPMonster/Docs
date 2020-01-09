@@ -27,15 +27,15 @@
                     </row>
                     <row>
                         <entry morerows="1"><apiname>trees</apiname></entry>
-                        <entry><apiname>confcpm.xsl</apiname></entry>
+                        <entry><apiname>cfg.xsl</apiname></entry>
                         <entry>Accessing CPM configuration parameters</entry>
                     </row>
                     <row>
-                        <entry><apiname>jobcpm.xsl</apiname></entry>
-                        <entry>Accessing to job and target properties</entry>
+                        <entry><apiname>job.xsl</apiname></entry>
+                        <entry>Accessing job and target properties</entry>
                     </row>
                     <row>
-                        <entry morerows="3"><apiname>utils</apiname></entry>
+                        <entry morerows="4"><apiname>utils</apiname></entry>
                         <entry><apiname>encoding.xsl</apiname></entry>
                         <entry>Encoding and decoding characters, working with encodings</entry>
                     </row>
@@ -51,6 +51,10 @@
                     <row>
                         <entry><apiname>pathuri.xsl</apiname></entry>
                         <entry>Parsing and assembling paths and URIs</entry>
+                    </row>
+                    <row>
+                        <entry><apiname>regexp.xsl</apiname></entry>
+                        <entry>Assembling complicated regular expressions</entry>
                     </row>
                 </tbody>
             </tgroup>
