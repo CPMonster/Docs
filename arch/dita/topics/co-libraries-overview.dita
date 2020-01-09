@@ -27,18 +27,26 @@
                     </row>
                     <row>
                         <entry morerows="1"><apiname>trees</apiname></entry>
-                        <entry><apiname>cpmguts.xsl</apiname></entry>
+                        <entry><apiname>confcpm.xsl</apiname></entry>
                         <entry>Accessing CPM configuration parameters</entry>
                     </row>
                     <row>
-                        <entry><apiname>jobguts.xsl</apiname></entry>
+                        <entry><apiname>jobcpm.xsl</apiname></entry>
                         <entry>Accessing to job and target properties</entry>
                     </row>
                     <row>
-                        <entry morerows="1"><apiname>utils</apiname></entry>
+                        <entry morerows="3"><apiname>utils</apiname></entry>
+                        <entry><apiname>encoding.xsl</apiname></entry>
+                        <entry>Encoding and decoding characters, working with encodings</entry>
+                    </row>
+                    <row>
                         <entry><apiname>morexsl.xsl</apiname></entry>
                         <entry>Performing frequently used tests and output content generation
                             activities</entry>
+                    </row>
+                    <row>
+                        <entry><apiname>morestr.xsl</apiname></entry>
+                        <entry>Extra string functions</entry>
                     </row>
                     <row>
                         <entry><apiname>pathuri.xsl</apiname></entry>
